@@ -53,9 +53,4 @@ spec:
         ports:
         - containerPort: 8080
           name: wordpress
-        volumeMounts:
-        - mountPath: /var/www/html
-          name: html
-      volumes:
-      - name: html
         emptyDir: {}
